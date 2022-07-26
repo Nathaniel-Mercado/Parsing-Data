@@ -66,7 +66,7 @@ def tic_tac_toe(board):
     '''
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
-     for i in board:
+    for i in board:
         h_list = set()
         for x in i:
             h_list.add(x)
